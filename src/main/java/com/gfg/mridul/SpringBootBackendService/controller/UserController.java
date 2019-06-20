@@ -22,7 +22,7 @@ import java.util.Optional;
 
 
 @RestController
-@Component
+
 
 
 public class UserController {
