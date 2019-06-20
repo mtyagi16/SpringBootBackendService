@@ -6,6 +6,7 @@ import com.gfg.mridul.SpringBootBackendService.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,7 +22,7 @@ public class UserDaoService {
 
     public List<User> findAllUsers(){
 
-        List users=userRepository.findAll();
+        ArrayList users= (ArrayList) userRepository.findAll();
         return (users);
 
 
