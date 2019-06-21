@@ -22,8 +22,7 @@ import java.util.List;
 
 import java.util.Optional;
 
-@ComponentScan(basePackages = "com.gfg.mridul.SpringBootBackendService.repository")
-@Component
+
 @Service
 
 public class UserDaoService {
