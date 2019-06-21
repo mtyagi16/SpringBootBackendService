@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 public class SpringBootBackendServiceApplication {
 
-	@Bean
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootBackendServiceApplication.class, args);
